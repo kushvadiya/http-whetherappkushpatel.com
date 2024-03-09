@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.main {
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+/* .preloader{
+    background: black url("resources/23.gif") no-repeat center center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+} */
+.main img {
+    height: 115px;
+    margin-top: 20px;
+}
+
+.nav input {
+    border-radius: 20px;
+    width: auto;
+}
+.nav{
+    display: flex;
+}
+.nav input{
+   border: 0;
+   outline: 0;
+   background: #ebfffc;
+   color: #555;
+   flex: 1;
+   height: 25px;
+   font-size: 18px;
+   margin-right: 20px;
+}
+.nav img{   
+    border-radius: 30px;
+    overflow: hidden;
+}
+.fleft img {
+    height: 20px;
+    margin-right: 5px;
+}
+.fleft{
+    display: flex;
+    justify-content: space-between;
+}
+.fright {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fright i {
+    color: black;
+    font-size: 15px;
+}
+
+.fright i {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 10px;
+}
+button i{
+    border-radius: 20%;
+}
+.sbutton{
+    overflow: hidden;
+    border-radius: 30px;
+    border: 1px solid #00feba;
+    color: grey;
+}
+@media (width<500px) {
+    .main{
+        width: 60vw;
+    }
+    .nav input{
+
+        width: 40%;
+    }
+   
+    .nav img{
+        width: 20%;
+    }
+    footer{
+        margin-right: 20px;
+    }
+}
+
